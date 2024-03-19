@@ -14,7 +14,17 @@
         "bootmagic": true,
         "encoder": true,
         "extrakey": true,
-        "mousekey": true
+        "mousekey": true,
+        "ps2mouse": true
+    },
+    "ps2": {
+        "clock_pin": "GP27",
+        "data_pin": "GP26",
+#        "clock_pin": "GP7",
+#        "data_pin": "GP6",
+        "driver": "vendor",
+        "enabled": true,
+        "mouse_enabled": true
     },
     "tapping": {
         "toggle": 2
